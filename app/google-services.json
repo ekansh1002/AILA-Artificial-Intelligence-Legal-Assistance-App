@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "71732829919",
+    "project_id": "aila-9a7a7",
+    "storage_bucket": "aila-9a7a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71732829919:android:5dd2739022c1fed6e2136a",
+        "android_client_info": {
+          "package_name": "com.example.artificialintelligenceforlegalassistance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ-eLQqrC1PZgZOPW6RN1aUuOJuQe6xNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
