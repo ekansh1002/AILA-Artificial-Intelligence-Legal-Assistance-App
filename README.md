@@ -1,8 +1,8 @@
-# Legal Case Document Summarization
+# AILA (Artificial Intelligence Legal Assistance)
 
 ## Frontend
 
-This project includes an Android app developed using Kotlin and Jetpack Compose. The app provides a user-friendly interface to interact with the backend server and view summarized legal case documents.
+AILA is an Android app developed using Kotlin and Jetpack Compose. The app provides a user-friendly interface to interact with the backend server and view summarized legal case documents.
 
 ### Features
 
@@ -31,8 +31,8 @@ This project includes an Android app developed using Kotlin and Jetpack Compose.
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/legal-case-summarization-app.git
-    cd legal-case-summarization-app
+    git clone https://github.com/ekansh1002/AILA-Artificial-Intelligence-Legal-Assistance-App.git
+    cd AILA-Artificial-Intelligence-Legal-Assistance-App
     ```
 
 2. **Open the project in Android Studio:**
@@ -60,7 +60,7 @@ This project includes an Android app developed using Kotlin and Jetpack Compose.
 
 ## Backend
 
-This project is a backend server that processes and summarizes legal case documents using Natural Language Processing (NLP) models like BERT and BART. The server can be accessed via a `curl` command or Postman to query and retrieve summaries of the most relevant documents based on a given query.
+This is a backend server that processes and summarizes legal case documents using Natural Language Processing (NLP) models like BERT and BART. The server can be accessed via a `curl` command or Postman to query and retrieve summaries of the most relevant documents based on a given query. This can be run seperately from the Android App interface.
 
 ### Features
 
@@ -84,22 +84,23 @@ This project is a backend server that processes and summarizes legal case docume
 
 - Python 3.8 or higher
 - Pip package manager
-- `virtualenv` (optional but recommended)
+- `virtualenv`
 
 #### Installation
 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/legal-case-summarization.git
-    cd legal-case-summarization
+    git clone https://github.com/ekansh1002/AILA-Artificial-Intelligence-Legal-Assistance-App.git
+    cd AILA-Artificial-Intelligence-Legal-Assistance-App
+    cd flask_app
     ```
 
-2. **Create a virtual environment (optional but recommended):**
+2. **Create a virtual environment:**
 
     ```bash
     python3 -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    source venv/bin/activate 
     ```
 
 3. **Install the required packages:**
@@ -134,3 +135,4 @@ You can interact with the server using `curl` or Postman.
 
 ```bash
 curl -X POST http://127.0.0.1:5000/query -H "Content-Type: application/json" -d '{"query": "Your legal query here"}'
+
