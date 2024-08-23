@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Artificial Intelligence for Legal Assistance</string>
+    <string name="app_tagline1">\"Empowering Justice with AI-Powered Legal Solutions\"</string>
+    <string name="app_tagline2">\"Making Legal Easier to Understand.\"</string>
+    <string name="app_tagline3">\"AI explains the Indian Constitution. Learn Smarter.\"</string>
+    <string name="create_acct">Please enter a valid email and password that is at least 6 characters</string>
+</resources>
