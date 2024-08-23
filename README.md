@@ -1,17 +1,17 @@
-# AILA (Artificial Intelligence Legal Assistance)
+# AILA (Artificial Intelligence Legal Assistance) 🤖📜
 
-## Frontend
+## Frontend 📱
 
 AILA is an Android app developed using Kotlin and Jetpack Compose. The app provides a user-friendly interface to interact with the backend server and view summarized legal case documents.
 
-### Features
+### Features ✨
 
 - **Modern UI**: Built using Jetpack Compose for a responsive and dynamic user interface.
 - **Document Querying**: Allows users to input queries and retrieve relevant legal case documents.
 - **Document Summarization**: Displays concise summaries of legal documents.
 - **Smooth Navigation**: Uses Jetpack Navigation for seamless transitions between screens.
 
-### Technologies Used
+### Technologies Used 🔧
 
 - **Kotlin**: The programming language used for Android app development.
 - **Jetpack Compose**: A modern toolkit for building native UIs in Android.
@@ -19,7 +19,7 @@ AILA is an Android app developed using Kotlin and Jetpack Compose. The app provi
 - **ViewModel**: Manages UI-related data in a lifecycle-conscious way.
 - **LiveData**: Provides a way to observe data changes in the UI.
 
-### Setup Instructions
+### Setup Instructions 🛠️
 
 #### Prerequisites
 
@@ -58,18 +58,18 @@ AILA is an Android app developed using Kotlin and Jetpack Compose. The app provi
 
     Use Android Studio's built-in tools to build and run the app on an emulator or physical device.
 
-## Backend
+## Backend ⚙️
 
-This is a backend server that processes and summarizes legal case documents using Natural Language Processing (NLP) models like BERT and BART. The server can be accessed via a `curl` command or Postman to query and retrieve summaries of the most relevant documents based on a given query. This can be run seperately from the Android App interface.
+This is a backend server that processes and summarizes legal case documents using Natural Language Processing (NLP) models like BERT and BART. The server can be accessed via a `curl` command or Postman to query and retrieve summaries of the most relevant documents based on a given query. This can be run separately from the Android App interface.
 
-### Features
+### Features ✨
 
 - **Query Legal Documents**: Retrieve the most relevant legal case documents based on a query.
 - **Document Summarization**: Generate concise summaries of the retrieved documents.
 - **Preprocessing**: Text preprocessing and tokenization using BERT.
 - **Similarity Matching**: Use cosine similarity to find the most relevant documents.
 
-### Technologies Used
+### Technologies Used 🔧
 
 - **Flask**: A lightweight WSGI web application framework for Python.
 - **PyTorch**: An open-source machine learning framework for NLP model inference.
@@ -78,7 +78,7 @@ This is a backend server that processes and summarizes legal case documents usin
 - **NLTK**: Natural Language Toolkit for tokenization and stemming.
 - **Scikit-Learn**: Used for calculating cosine similarity between query and document embeddings.
 
-### Setup Instructions
+### Setup Instructions 🛠️
 
 #### Prerequisites
 
@@ -100,7 +100,7 @@ This is a backend server that processes and summarizes legal case documents usin
 
     ```bash
     python3 -m venv venv
-    source venv/bin/activate 
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
 
 3. **Install the required packages:**
@@ -117,7 +117,7 @@ This is a backend server that processes and summarizes legal case documents usin
     directory = r"C:\path\to\your\documents"
     ```
 
-### Running the Server
+### Running the Server 🚀
 
 1. **Start the Flask server:**
 
@@ -127,7 +127,7 @@ This is a backend server that processes and summarizes legal case documents usin
 
 2. The server will start running on `http://127.0.0.1:5000/`.
 
-### Making Requests
+### Making Requests 📡
 
 You can interact with the server using `curl` or Postman.
 
